@@ -1,0 +1,11 @@
+<link type="text/css"  rel="stylesheet", href="styles.css">
+<div id="container">
+    {% for quotes in data %}
+    <div id="quotes">
+        <p id="quote">Quote: {{quotes['quote']}}</p>
+        <p id="author">Author: {{quotes['author']}}</p>
+    </div>
+    <div style="page-break-after: always;"></div>
+    {% endfor %}
+    
+</div>

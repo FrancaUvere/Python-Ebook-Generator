@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+#container{
+    width: 80%;
+    margin: auto;
+}
+
+#quotes{
+    width: fit-content;
+    height: fit-content;
+    margin: auto;
+    font-size: 14px;
+    text-align: center;
+    font-weight: 50;
+    
+    
+}
+
+
+#author{
+    
+    font-size: 12px;
+}
+
+#author, #quote{
+    text-align: left;   
+    margin-bottom: 5px;
+}
+
+
+@page{
+    size: A4;
+    margin-left: 20mm;
+    margin-right: 0mm;
+    margin-top: 30mm;
+}
+
+
+
+
+
